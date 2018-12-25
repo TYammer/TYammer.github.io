@@ -1,0 +1,45 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+}
+.pennypic {
+	background-image: url(babybear.jpg);
+	height: auto;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.heading {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*transform: translate(-20%, -40%);*/
+	text-align: center;
+}
+p {	
+	color: #FF33BE;
+	font: normal normal bold 50px/1.3em sans-serif;
+	text-shadow: 5px 3px 5px orange;
+}
+.babybutton {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	font: normal normal bold 23px/1.2em calibri; 
+	padding: 25px;
+	background-color: orange;
+	border-radius: 30px;
+}
+#mc_embed_signup {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+}
